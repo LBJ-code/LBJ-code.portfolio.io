@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>さとうゆきやのポートフォリオ</title>
+        <script src="./lib/anime.min.js"></script>
+        <link rel="stylesheet" href="./stylesheet.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="start-loading">
+            <p class="loading-percent"></p>
+        </div>
+        <script src="./js/disapper-start.js"></script>
+
+        <div class="menu-icon">
+            <i class="fas fa-ellipsis-h icon"></i>
+        </div>
+
+        <div class="menu-bar">
+            <p class="menu toIntroButton">自己紹介</p>
+            <p class="menu toStudyButton">研究紹介</p>
+            <p class="menu toMiraiButton">MIRAI DATA<br>COMPETITION</p>
+            <p class="menu toKMHButton">KONICA MINOLTA<br>Hackathon</p>
+            <p class="menu toPanaButton">panasonic</p>
+        </div>
+
+        <header>
+            <img class="logo" src="./src/logo_resized.png" alt="#">
+        </header>
+
+        <script src="./js/menu-appear.js"></script>
+
+        <div class="main">
+            <div class="container">  
+                <div class="profile">
+                    <div class="profile-text-box">
+                        <div class="profile-text">
+                            <h1>さとう　ゆきや</h1>
+                            <p>千葉大学院 融合理工学府 基幹工学専攻 医工学コース 中口研究室所属の修士1年</p>
+                            <p>普段はAI(DeepLearning)と医療の融合を目的とした研究をしながら，千葉大発のベンチャー企業でバックエンドエンジニアとしても活躍中</p>
+                            <p>理解のある分野はAI(DeepLearningや古典的機械学習)，AR(Augumented Reality)，画像処理，パターン認識がメイン</p>
+                            <p>受賞歴としてはSoftBank主催のMIRAI DATA COMPETITIONにて全体5位，さらに特別賞を受賞．KONICA MINOLTA Hackathon 2020にて最優秀賞受賞</p>
+                            <p>飲酒とコーヒーが生きがい</p>
+                        </div>
+                    </div>
+                    <div class="my-img-box">
+                        <div class="img-container">
+                            <img class="my-img1" src="./src/sato1.jpg" alt="sato">
+                            <img class="my-img2" src="./src/sato2.jpg" alt="sato">
+                            <img class="my-img3" src="./src/sato3.jpg" alt="sato">
+
+                            <script src="./js/my-img-tl.js"></script>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="study-root">
+                    <h1 class="study-title">研究紹介</h1>
+                    <h2 class="subtitle">内視鏡操作と連動した食道手術支援のためのARナビゲーションシステムの開発(2019)</h2>
+                
+                    <div class="study-introduction">
+                        <div class="study-img-container">
+                            <img src="./src/study_img.png" alt="study">
+                        </div>
+
+                        <div class="study-text-container">
+                            <p>人間の臓器内は内視鏡で移動しても非常に似通った構造になっていることが知られています．</p><br>
+                            <p>熟練の医師であれば臓器内の特徴の少ない目印から内視鏡の位置を把握することが出来ますが経験の少ない医師にとってその目印は見つけ辛く，現在位置を把握しきれなくなることも度々あるようです，</p><br>
+                            <p>この課題に対して千葉大学医学部附属病院のお医者様方と共同で研究を行っています．事前に撮影されたCT画像からバーチャル空間内で患者の臓器を3Dで表示し，実際の内視鏡操作と連動してバーチャル空間内の内視鏡も同様の移動をするようなシステムを作成しております．</p><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mirai-root">
+                    <h1 class="study-title">実績紹介</h1>
+                    <h2 class="subtitle">SoftBank MIRAI DATA COMPETITION(2020)</h2>
+                    
+                    <div class="mirai">
+                        <div class="study-text-container">
+                            <p>SoftBank主催のデータ分析コンペティション，MIRAI DATA COMPETITIONにて幾つか賞を頂きました．</p><br>
+                            <p>当コンペティションでは日本の各都市における未来の人口流動数（観光客+住民の数）を過去の人口流動数から予測するタスクが与えられ，予測精度を競いました．</p><br>
+                            <p>全国合計110人の大学生・大学院生と30人の現役SoftBank社員が参加し，2ラウンドで総合5位として入賞しました．</p><br>
+                            <p>他にも，当コンペティションでは参加者同士が意見を交換し合うフォーラムという機能があり，そこで最も「いいね」の数が多かったことから，特別賞を頂きました．</p>
+                        </div>
+        
+                        <div class="study-img-container">
+                            <img class="mirai-img" src="./src/mirai.png" alt="mirai">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="KMH-root">
+                    <h2 class="subtitle secound">KONICA MINOLTA Hackathon(2020)</h2>
+
+                    <div class="KMH">
+                        <div class="study-img-container">
+                            <img class="KMH-img" src="./src/KMH.png" alt="KMH">
+                        </div>
+                        <div class="study-text-container">
+                            <p>コニカミノルタ主催のハッカソンに参加させていただきました．</p><br>
+                            <p>当ハッカソンでは「with/afterコロナの時代を楽しく過ごすサービスを企画立案・開発しよう」をテーマに一人一つずつArudinoと十数個のセンサが配られ，開発を行いました．</p><br>
+                            <p>私が所属するチームでは「不思議プス」というカメラによって人の姿勢を自動検知し，人工筋肉によって姿勢を矯正するようなサービスを提案しました．私はシステムの全体監督とカメラを使ったAIによる姿勢を検知するシステムの作成を行いました．</p><br>
+                            <p>最終的に私たちのチームは投票の結果，最優秀賞を頂くことが出来ました．</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pana-root">
+                    <h2 class="subtitle secound">panasonic株式会社(2020)</h2>
+                    <div class="pana">
+                        <div class="study-text-container">
+                            <p>大阪府門真市にあるパナソニック株式会社にて2週間ほどインターン実習生として働かせていただきました.</p><br>
+                            <p>エッジデバイス+AIを組み合わせたような開発に従事し，元々その開発を担当していた前任の社員の方より多くの評価指標において優れたものを製作することが出来ました．</p>
+                        </div>
+                        <div class="study-img-container">
+                            <img src="./src/pana.png" alt="pana">
+                        </div>
+                    </div>
+                </div>
+                <script src="./js/mouse-appear.js"></script>
+            </div>
+        </div>
+
+        <footer>
+        
+        </footer>
+
+    </body>
+</html>
